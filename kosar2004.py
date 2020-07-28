@@ -49,7 +49,7 @@ for sor in lista:
     stadion = sor.helyszín
     statisztika[stadion] = statisztika.get(stadion, 0) + 1
 
-print( f'6. feladat:')
+print( f'7. feladat:')
 [print(f'        {helyszín}: {db}') for helyszín, db in statisztika.items() if db > 20 ]
 
                 
